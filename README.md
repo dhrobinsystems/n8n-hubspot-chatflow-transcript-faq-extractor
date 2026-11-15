@@ -42,6 +42,8 @@ This workflow closes that loop. Each closed chat is mined for reusable questions
 
 ## Architecture
 
+![Workflow Overview](./workflow-overview.png)
+
 ```mermaid
 flowchart LR
     A[HubSpot conversation<br/>status → CLOSED] -->|POST| B[HubSpot Conversations Webhook]
